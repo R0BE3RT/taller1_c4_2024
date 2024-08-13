@@ -194,35 +194,21 @@ Los códigos de estado HTTP en una API REST indican el resultado de una solicitu
 
 IV. Agregar una tabla con los códigos HTTP de respuesta más comunes, y su significado
 
-Código 	  Nombre				Significado
-
-HTTP
-
-200	OK			La solicitud fue exitosa y se devolvió el recurso solicitado.
-
-201	Created			Un nuevo recurso fue creado exitosamente.
-
-204	No Content		La solicitud fue exitosa, pero no hay contenido que devolver.
-
-301	Moved Permanently		El recurso solicitado ha sido movido permanentemente a una nueva URL.
-
-302	Found			El recurso solicitado está temporalmente en una URL diferente.
-
-400	Bad Request		La solicitud es inválida o malformada.
-
-401	Unauthorized		El cliente no está autenticado; se requiere autenticación.
-
-403	Forbidden			El cliente está autenticado, pero no tiene permiso para acceder al recurso.
-
-404	Not Found			El recurso solicitado no se encontró en el servidor.
-
-409	Conflict			Existe un conflicto con el estado actual del recurso.
-
-500	Internal Server Error		Ocurrió un error inesperado en el servidor.
-
-502	Bad Gateway		El servidor, actuando como puerta de enlace, recibió una respuesta inválida del servidor                           ----------------------------------------ascendente.
-
-503	Service Unavailable	     	El servidor no está disponible temporalmente, generalmente debido a mantenimiento.
+| Código HTTP | Nombre               | Significado                                                                                  |
+|-------------|----------------------|----------------------------------------------------------------------------------------------|
+| 200         | OK                   | La solicitud fue exitosa y se devolvió el recurso solicitado.                                 |
+| 201         | Created              | Un nuevo recurso fue creado exitosamente.                                                     |
+| 204         | No Content           | La solicitud fue exitosa, pero no hay contenido que devolver.                                 |
+| 301         | Moved Permanently    | El recurso solicitado ha sido movido permanentemente a una nueva URL.                         |
+| 302         | Found                | El recurso solicitado está temporalmente en una URL diferente.                                |
+| 400         | Bad Request          | La solicitud es inválida o malformada.                                                        |
+| 401         | Unauthorized         | El cliente no está autenticado; se requiere autenticación.                                    |
+| 403         | Forbidden            | El cliente está autenticado, pero no tiene permiso para acceder al recurso.                   |
+| 404         | Not Found            | El recurso solicitado no se encontró en el servidor.                                          |
+| 409         | Conflict             | Existe un conflicto con el estado actual del recurso.                                         |
+| 500         | Internal Server Error| Ocurrió un error inesperado en el servidor.                                                   |
+| 502         | Bad Gateway          | El servidor, actuando como puerta de enlace, recibió una respuesta inválida del servidor ascendente. |
+| 503         | Service Unavailable  | El servidor no está disponible temporalmente, generalmente debido a mantenimiento.            |
 
 V. ¿Qué es JSON y por qué se usa comúnmente en APIs REST?
 
