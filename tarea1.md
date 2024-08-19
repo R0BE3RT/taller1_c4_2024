@@ -207,7 +207,7 @@ IV. Agregar una tabla con los códigos HTTP de respuesta más comunes, y su sign
 | 404         | Not Found            | El recurso solicitado no se encontró en el servidor.                                          |
 | 409         | Conflict             | Existe un conflicto con el estado actual del recurso.                                         |
 | 500         | Internal Server Error| Ocurrió un error inesperado en el servidor.                                                   |
-| 502         | Bad Gateway          | El servidor, actuando como puerta de enlace, recibió una respuesta inválida del servidor ascendente. |
+| 502         | Bad Gateway          | El servidor, actuando como puerta de enlace, recibió una respuesta inválida del servidor    ascendente. |
 | 503         | Service Unavailable  | El servidor no está disponible temporalmente, generalmente debido a mantenimiento.            |
 
 V. ¿Qué es JSON y por qué se usa comúnmente en APIs REST?
