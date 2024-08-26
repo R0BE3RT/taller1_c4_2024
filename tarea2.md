@@ -1,7 +1,7 @@
 # Sección 1: Introducción a Servicios en Quarkus
 
 ### ¿Qué es @ApplicationScoped en Quarkus?
-Es una anotación que indica que un bean debe tener un único ciclo de vida en toda la aplicación. Esto significa que se crea una sola instancia del bean durante la vida de la aplicación y se reutiliza en todas las solicitudes. Este ámbito es útil para servicios o componentes que deben mantener estado o datos compartidos durante toda la ejecución de la aplicación.
+Es una anotación que indica que un bean debe tener un único ciclo de vida en toda la aplicación. Esto significa que sgit e crea una sola instancia del bean durante la vida de la aplicación y se reutiliza en todas las solicitudes. Este ámbito es útil para servicios o componentes que deben mantener estado o datos compartidos durante toda la ejecución de la aplicación.
 
 ### ¿Cómo funciona la inyección de dependencias en Quarkus?
 En Quarkus la inyección de dependencias se basa en CDI (Contexts and Dependency Injection) funciona mediante la anotación de clases con `@Inject` que permite al contenedor de Quarkus gestionar la creación y el ciclo de vida de las dependencias. Cuando una clase requiere una dependencia Quarkus inyecta automáticamente la instancia adecuada en el punto solicitado ya sea en campos, métodos o constructores. Esto facilita la gestión de dependencias y promueve un diseño desacoplado y modular.
