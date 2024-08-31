@@ -1,18 +1,18 @@
-package py.edu.ucom.services.api;
+package ucom.py.services.api;
 
 import java.util.List;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import py.edu.ucom.entities.apiresponse.Gastos;
-import py.edu.ucom.repository.ApiResponseRepository;
-import py.edu.ucom.config.GenericDAO;
+import ucom.py.config.GenericDAO;
+import ucom.py.entities.apiresponse.Gastos;
+import ucom.py.repository.ApiResponseRepository;
 
 @ApplicationScoped
-public class GenericDaoServiceWithJason implements GenericDAO<Gastos, Integer> {
+public class GenericDAOServicesWithJson implements GenericDAO<Gastos, Integer> {
 
     public ApiResponseRepository repository;
 
-    public GenericDaoServiceWithJason(ApiResponseRepository repository) {
+    public GenericDAOServicesWithJson(ApiResponseRepository repository) {
         this.repository = repository;
     }
 

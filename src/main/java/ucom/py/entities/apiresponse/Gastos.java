@@ -1,6 +1,7 @@
-package py.edu.ucom.entities.apiresponse;
+package ucom.py.entities.apiresponse;
 
 import java.util.Date;
+
 
 public class Gastos {
     private Integer id;

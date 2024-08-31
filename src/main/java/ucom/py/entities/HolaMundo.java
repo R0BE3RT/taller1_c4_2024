@@ -1,4 +1,4 @@
-package py.edu.ucom.entities;
+package ucom.py.entities;
 
 import java.util.Date;
 

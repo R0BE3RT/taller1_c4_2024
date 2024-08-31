@@ -1,8 +1,9 @@
-package py.edu.ucom.config;
+
+package ucom.py.config;
 
 import java.util.List;
 
-public interface GenericDAO<T, I> {
+public interface GenericDAO <T, I>{
     public List<T> listar();
 
     public T obtener(I id);
