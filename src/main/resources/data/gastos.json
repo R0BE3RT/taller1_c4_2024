@@ -2,19 +2,43 @@
   {
     "id": 1,
     "fecha": 1724198400000,
-    "monto": 10000,
-    "descripcion": "Gasto xyz"
+    "monto": 150000.0,
+    "descripcion": "Gasto de carteleria"
   },
   {
     "id": 2,
     "fecha": 1724284800000,
-    "monto": 1000000,
-    "descripcion": "impresiones"
+    "monto": 20000.0,
+    "descripcion": "Impresiones varias"
   },
   {
     "id": 3,
     "fecha": 1724284800000,
-    "monto": 10000000,
-    "descripcion": "entrega para terreno"
+    "monto": 80000.0,
+    "descripcion": "Compra de pizarra"
+  },
+  {
+    "id": 4,
+    "fecha": 1724284800000,
+    "monto": 250000.0,
+    "descripcion": "Servicios de consultoría"
+  },
+  {
+    "id": 5,
+    "fecha": 1724284800000,
+    "monto": 200000.0,
+    "descripcion": "Curso de Marketing digital"
+  },
+  {
+    "id": 6,
+    "fecha": 1724284800000,
+    "monto": 500000.0,
+    "descripcion": "Desarrollo de software"
+  },
+  {
+    "id": 7,
+    "fecha": 1724284800000,
+    "monto": 150000.0,
+    "descripcion": "Reparación del sanitario"
   }
 ]
